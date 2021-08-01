@@ -1,4 +1,5 @@
 {
+	"homepage": "http://tebanban.github.io/Staryu-Up",
 	"name": "react-hello-webapp",
 	"engines": {
 		"node": "10.x"
@@ -7,9 +8,11 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
 		"start": "webpack-dev-server --config webpack.dev.js --port 3000",
 		"build": "webpack --config webpack.prod.js",
-		"postinstall": "npm run build:prod"  
+		"postinstall": "npm run build:prod"
 	},
 	"author": {
 		"name": "Alejandro Sanchez",
