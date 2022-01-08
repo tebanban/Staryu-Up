@@ -2,7 +2,7 @@
 	"homepage": "http://tebanban.github.io/Staryu-Up",
 	"name": "react-hello-webapp",
 	"engines": {
-		"node": "10.x"
+		"node": "14.x"
 	},
 	"version": "1.0.1",
 	"description": "",
