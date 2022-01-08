@@ -27,3 +27,9 @@ git pull origin main            -> actualizar los cambios del branch principal
 git add .
 git commit -m 'mensaje'
 git push origin <branch_name>   -> subir los cambios al branch de uno
+
+
+# Node version error, webpack error:
+ rm -rf node_modules
+ nvm install 14
+ npm install
